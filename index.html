@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Web-based ACMI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="test.browser.js"></script>
+</head>
+<body>
+    
+    <div>
+        <label>Object</label>
+        <select id="objectSelector"></select>
+    </div>
+
+    <div>
+        <label>Time</label>
+        <input id="timeSelector" type="range" min="0" max="10000" value="0">
+    </div>
+
+    <section>
+        <h3>Object info</h3>
+        <div id="objectInfo"></div>
+    </section>
+</body>
+</html>
